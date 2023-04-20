@@ -6,6 +6,15 @@ ruby "3.2.2"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 
+# Use cors for controlling request permissions
+gem "rack-cors"
+
+# Use hirb for displaying tables in the rails console
+gem "hirb"
+
+# Use faker to generate random data for database seeding
+gem "faker"
+
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
